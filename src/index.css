@@ -10,6 +10,9 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-[#080808] text-slate-400 antialiased selection:bg-mars-rust/30;
   }
