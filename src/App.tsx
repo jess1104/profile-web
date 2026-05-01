@@ -53,7 +53,7 @@ const PROJECTS = [
     tech: ["React", "CSS Modules", "Context API"],
     link: "https://vue-shopping-topaz.vercel.app/#/",
     type: "E-commerce",
-    image: "projects/shopping.png"
+    image: `${import.meta.env.BASE_URL}projects/shopping.png`
   },
   {
     title: "🚀 Tech Debt Tracker (AI-Powered)",
@@ -61,7 +61,7 @@ const PROJECTS = [
     tech: ["React 19", "NestJS", "Prisma", "Gemini API"],
     link: "#",
     type: "AI Solutions",
-    image: "projects/tech-debt.png"
+    image: `${import.meta.env.BASE_URL}projects/tech-debt.png`
   },
   {
     title: "🤖 TOEIC Practice Bot",
@@ -69,7 +69,7 @@ const PROJECTS = [
     tech: ["Node.js", "Telegraf", "Render", "UptimeRobot"],
     link: "https://stats.uptimerobot.com/nrpvnqhlUJ",
     type: "Automation",
-    image: "projects/toeic-bot.png"
+    image: `${import.meta.env.BASE_URL}projects/toeic-bot.png`
   },
 {
     title: "📍 Travel Go 視覺化行程",
@@ -77,7 +77,7 @@ const PROJECTS = [
     tech: ["React 19", "Redux Toolkit", "Google Maps API"],
     link: "https://jess1104.github.io/travel-planner/",
     type: "Visualization",
-    image: "projects/travel-go.png"
+    image: `${import.meta.env.BASE_URL}projects/travel-go.png`
   }
 ];
 
@@ -260,7 +260,7 @@ export default function App() {
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-full p-1.5 bg-gradient-to-br from-mars-rust to-orange-400 shadow-2xl shadow-mars-rust/20 relative z-10">
                   <div className="w-full h-full rounded-full overflow-hidden border-4 border-[#0c0504]">
                     <img 
-                      src="mars_avatar.jpg" 
+                      src={`${import.meta.env.BASE_URL}mars_avatar.jpg`} 
                       alt="Mars Wu" 
                       className="w-full h-full object-cover"
                     />
