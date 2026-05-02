@@ -8,6 +8,8 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/ec8434c2-4104-40d7-a65e-78aea039fce6
 
+gh-pages: https://jess1104.github.io/profile-web/
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
