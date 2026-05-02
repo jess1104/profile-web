@@ -59,7 +59,7 @@ const PROJECTS = [
     title: "🚀 Tech Debt Tracker (AI-Powered)",
     desc: "自動化技術債管理工具。利用 Gemini 1.5 Flash 掃描代碼並產出架構級重構建議，具備即時 CRUD 功能。",
     tech: ["React 19", "NestJS", "Prisma", "Gemini API"],
-    link: "#",
+    link: "https://tech-debt-tracker.vercel.app/",
     type: "AI Solutions",
     image: `${import.meta.env.BASE_URL}projects/tech-debt.png`
   },
